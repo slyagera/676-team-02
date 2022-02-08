@@ -7,8 +7,93 @@
     <title>Coffee Machine Rental</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Natalia blok start -->
+      <div class="header__contacts">
+        <a class="header__contacts-adress" href="#">
+          <svg class="header__contacts-adress-icon" width="24" height="24">
+            <use href="./img/header-icons#icon-localization"></use>
+          </svg>
+
+          303 E 61st St, New York, NY 10065
+        </a>
+        <a class="header__contacts-phone" href="tel:+12345678900">
+          <svg class="header__contacts-phone-icon" width="24" height="24">
+            <use href="./img/header-icons#icon-phone"></use>
+          </svg>
+          +1 (234) 567 89 00
+        </a>
+      </div>
+      <nav class="header__nav">
+        <a class="header__nav-logo" href="./index.html">
+          <svg class="header__nav-logo-icon">
+            <use href="./img/header-icons#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">About Us</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Coffee Machines</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Testimonials</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Services</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Coffee</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Pricing</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-item-link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <ul class="header__nav-social-list">
+          <li class="header__nav-social-list-item">
+            <a
+              class="header__nav-social-list-link"
+              href="https://www.facebook.com/"
+            >
+              <svg class="header__nav-social-list-icon" width="30" height="30">
+                <use href="./img/header-icons#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__nav-social-list-item">
+            <a
+              class="header__nav-social-list-link"
+              href="https://www.instagram.com/"
+            >
+              <svg class="header__nav-social-list-icon" width="30" height="30">
+                <use href="./img/header-icons#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__nav-social-list-item">
+            <a
+              class="header__nav-social-list-link"
+              href="https://www.youtube.com/"
+            >
+              <svg class="header__nav-social-list-icon" width="30" height="30">
+                <use href="./img/header-icons#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <div class="header__baner">
+          <p class="header__baner-subtitle">RENTAL</p>
+          <h1 class="header__baner-title">Rent a Coffee<br />Machine</h1>
+          <p class="header__baner-text">
+            Need a coffee machine for commercial or home use? Get one here!
+          </p>
+          <a class="header__baner-link" href="">Coffee Machines</a>
+        </div>
+      </nav>
       <!-- Natalia blok end -->
     </header>
     <main>
@@ -160,13 +245,13 @@
 
       <!-- Alexasnder block start -->
       <!-- Alexander block end -->
-      
+
       <!-- Denys's block start-->
       <section class="section-services">
         <div class="services-header">
-          <h3 class="section-main-header">SERVICES</h3>
-          <h2 class="section-header">Everything Related to Coffee</h2>
-          <p class="section-subtext-header">
+          <h3 class="section-substitle">SERVICES</h3>
+          <h2 class="section-title">Everything Related to Coffee</h2>
+          <p class="section-subtext">
             Our company is the ultimate place for everything related to coffee.
             We offer coffee machines <br />for rent, as well as repairs,
             accessories, and supplies.
@@ -449,8 +534,40 @@
           </div>
         </div>
       </section>
-      <!-- Denys' block end-->
     </main>
-    <footer></footer>
+    <footer>
+      <img src="img/logo-img.svg" alt="Logo image" />
+      <p>
+        We offer coffee machines rental for home, office or commercial use.
+        Also, here you can buy coffee beans, as well as all the necessary
+        consumables and spare parts for your coffee machines.
+      </p>
+      <nav class="nav-bar-footer">
+        <h3 class="bar-header">Navigation</h3>
+        <a class="nav-choice" href="">About us</a>
+        <a class="nav-choice" href="">How to order</a>
+        <a class="nav-choice" href="">Services</a>
+        <a class="nav-choice" href="">Pricing</a>
+      </nav>
+      <nav class="shop-bar-footer">
+        <h3 class="bar-header">Shop</h3>
+        <a class="nav-choice" href="">Coffee Machines</a>
+        <a class="nav-choice" href="">Coffee</a>
+        <a class="nav-choice" href="">FAQ</a>
+        <a class="nav-choice" href="">Contact us</a>
+      </nav>
+      <div class="subscribe-part">
+        <p class="subscribe-part-header">Subscribe to our newsletter</p>
+        <input type="email" id="email-input" placeholder="Email*" />
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+      <div class="created-by">
+        <p>© Created by | All rights Reserved</p>
+        <nav>
+          <!--НЕзабути вставити картинки дл япереходу на соцмережі-->
+        </nav>
+      </div>
+    </footer>
+    <!--Denys block end-->
   </body>
 </html>

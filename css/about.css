@@ -1,10 +1,36 @@
-.faq_faq {
-    display: flex;
-    justify-content: flex-start;    
+/* move to common */
+h2 {
+    font-family: var(--accent-font);
+    color: var(--primari-title-color);
+    font-size: 40px;
+    font-weight: 700;
 }
-.faq-image {
-    display: flex;
+
+h4 {
+    color: var(--accent-color);
+    font-size: 12px;
+    font-weight: 700;
 }
-.faq-texts {
-    display: flex;
+/*--------------------*/
+
+.about {
+    max-width: 1000px;
+    display: flex;  
+    justify-content: center;   
 }
+.img-about {
+    max-width: 100%;
+    border-radius: 10px;    
+}
+.about-markedtext {
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-checkpics {
+    padding: 0px 5px 0px 5px;
+}
+
+

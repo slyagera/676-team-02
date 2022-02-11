@@ -1,0 +1,10 @@
+.faq_faq {
+    display: flex;
+    justify-content: flex-start;    
+}
+.faq-image {
+    display: flex;
+}
+.faq-texts {
+    display: flex;
+}

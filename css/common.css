@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;1,300;1,400&family=Quicksand:wght@500&family=Roboto:wght@100;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 :root {
     --primari-title-color: rgb(34, 34, 34);
+    --primari-footer-color:(rgb(33, 33, 33));
     --primari-text-color: #8c8c8c;
     --accent-text-color: rgb(101, 101, 101);
     --primari-white-color: #ffffff;

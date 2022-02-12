@@ -1,0 +1,20 @@
+.faq_faq {
+    max-width: 1000px;
+    display: flex;  
+    justify-content: center;
+    align-items: flex-start;   
+
+}
+.img-faq {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+.faq-texts {
+    display: flex;
+    flex-direction :column;
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+
+}

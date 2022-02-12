@@ -1,30 +1,24 @@
-@import url(common.css);
 @media (min-width: 770px) {
-  .footer-logo-subtext {
-    display: block;
-    flex-direction: column;
-    justify-content: flex-start;
+  .shop-bar-footer,
+  .nav-bar-footer {
+    padding-top: 31px;
   }
-
   .footer-nav-part {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 50px;
-    padding-top: 69px;
   }
   .logo-img-footer {
     display: flex;
     justify-content: flex-start;
   }
-  .footer-text-content {
-    display: flex;
-    width: 70%;
-    justify-content: left;
+  .footer-top-part {
+    justify-content: space-between;
   }
-  
 }
-
+.footer-top-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .footer {
   background-color: rgb(33, 33, 33);
 }

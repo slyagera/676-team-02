@@ -5,15 +5,22 @@
   }
   .footer-nav-part {
     display: flex;
+    justify-content: right;
   }
-  .logo-img-footer {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .footer-top-part {
-    justify-content: space-between;
-  }
+
+  .header__nav-social-list-footer li {
+  display: flex;
+  align-items: flex-end;
+  margin-top :20px;;
+  justify-content: center;
+
 }
+.footer-top-part {
+  display: flex;
+  justify-content: space-evenly;
+}
+}
+
 .footer-top-part {
   display: flex;
   flex-direction: column;
@@ -167,3 +174,4 @@
 .header__nav-social-list-item {
   margin: 0 8px;
 }
+

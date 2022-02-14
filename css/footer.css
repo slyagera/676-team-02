@@ -141,6 +141,7 @@
 
 .created-by {
   background-color: #000;
+  display: block;
 }
 .created-by p {
   margin-bottom: 20px;
